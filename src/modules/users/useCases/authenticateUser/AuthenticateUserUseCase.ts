@@ -1,3 +1,5 @@
+import 'dotenv/config';
+
 import { inject, injectable } from "tsyringe";
 import { compare } from 'bcryptjs';
 import { sign } from 'jsonwebtoken';
